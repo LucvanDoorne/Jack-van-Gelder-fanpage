@@ -3,6 +3,13 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
+  
+
+body{
+    background-color: black;
+}
+
 header {
     background-color:gray;
     border: 10px solid dimgray;
@@ -11,8 +18,9 @@ header {
     
 }
 
-body{
-    background-color: black;
+.embed{
+    position: relative;
+    padding-bottom: 5%;
 }
 
 footer {
