@@ -3,13 +3,51 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
-  
-
 body{
     background-color: black;
 }
 
+nav {
+    position: fixed;
+    z-index: 5;
+    left: -17.8em;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 5rem;
+    padding-right: 2rem;
+    background: url("") center center repeat;
+    font-family: "Proza Libre", serif;
+    font-size: 18px;
+    line-height: 2.2;
+    font-weight: bold;
+    color: #142033;
+    transition: left 600ms ease-out 120ms;
+    background-color: white;
+    
+  
+  }
+  
+  nav:hover {
+    left: 0;
+  }
+  
+  nav .hover-content {
+    margin-right: 3em;
+  }
+
+  nav li{
+      color: black;
+  }
+
+  nav h2{
+      color: black;
+  }
+
+  nav a{
+      color: black;
+  }
+  
 header {
     background-color:gray;
     border: 10px solid dimgray;
@@ -18,9 +56,13 @@ header {
     
 }
 
-.embed{
-    position: relative;
-    padding-bottom: 5%;
+.aftellen h1{
+    text-align: center;
+}
+
+iframe{
+    text-align: center;
+    padding-left: 27.5%;
 }
 
 footer {
@@ -30,8 +72,7 @@ footer {
 }
 
 h1 {
-    
-    
+    font-size: 2rem;    
 }
 
 .logo {
