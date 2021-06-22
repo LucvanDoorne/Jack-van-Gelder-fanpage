@@ -4,8 +4,11 @@
 }
 
 body{
-    background-color: black;
+    background-image:url("https://nl.freepik.com/premium-vector/voetbalveld-of-voetbal-veld-achtergrond_2199196.htm");
 }
+
+
+
 
 nav {
     position: fixed;
@@ -33,7 +36,10 @@ nav {
   }
   
   nav .hover-content {
-    margin-right: 3em;
+    margin-right: 5em;
+    height: 100%;
+    
+    
   }
 
   nav li{
@@ -47,17 +53,33 @@ nav {
   nav a{
       color: black;
   }
-  
+ 
+.pijl img {
+      width: 25%;
+      height: auto;
+      position: absolute;
+      
+  }
+
 header {
     background-color:gray;
     border: 10px solid dimgray;
     width: 99%;
-   
-    
+}
+
+.logo img{
+    width: 10%;
+    height: auto;
+}
+
+.pagina{
+   text-align: right; 
+   width: 99%;
 }
 
 .aftellen h1{
     text-align: center;
+    
 }
 
 iframe{
@@ -89,4 +111,5 @@ h1 {
 .Contact {
     text-align: center;
 }
+
     
