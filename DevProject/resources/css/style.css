@@ -5,11 +5,12 @@
 
 body{
     background-color: black;
+    position: absolute;
 }
 
 nav {
     position: fixed;
-    z-index: 5;
+    z-index: 50;
     left: -17.8em;
     display: flex;
     align-items: center;
@@ -54,7 +55,6 @@ nav {
 .pijl img {
       width: 25%;
       height: auto;
-      padding-top: center;
       position: absolute;
       
   }
@@ -111,4 +111,21 @@ h1 {
     text-align: center;
 }
 
+.container1 {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "foto1";
     
+}
+
+.foto1 {
+    grid-area: foto1;
+}
+
+.fotoid1 img{
+    width: 200px;
+    height: auto;
+}
