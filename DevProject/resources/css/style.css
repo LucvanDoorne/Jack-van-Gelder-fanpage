@@ -9,71 +9,36 @@ body{
 }
 
 nav {
-    position: fixed;
-    z-index: 50;
-    left: -17.8em;
-    display: flex;
-    align-items: center;
-    height: 100%;
-    padding-left: 5rem;
-    padding-right: 2rem;
-    background: url("") center center repeat;
-    font-family: "Proza Libre", serif;
-    font-size: 18px;
-    line-height: 2.2;
-    font-weight: bold;
-    color: #142033;
-    transition: left 600ms ease-out 120ms;
-    background-color: rgb(114, 224, 243);
     
-  
-  }
-  
-  nav:hover {
-    left: 0;
-  }
-  
-  nav .hover-content {
-    margin-right: 5em;
-    padding-top: center;
+    background-color: rgb(80, 78, 78);
+    padding: 0;
+    width: 100%;
+    padding: 0;
     
     
-  }
-
-  nav li{
-      color: black;
-  }
-
-  nav h2{
-      color: black;
-  }
-
-  nav a{
-      color: black;
-  }
- 
-.pijl img {
-      width: 25%;
-      height: auto;
-      position: absolute;
-      
-  }
-
-header {
-    background-color:gray;
-    border: 10px solid dimgray;
-    width: 99%;
 }
 
-.logo img{
-    width: 10%;
+nav img{
+    width: 25%;
     height: auto;
-    padding-left: 5%;
+    position: absolute;
+    top: 0;
 }
 
-.pagina{
-   text-align: right; 
-   width: 99%;
+nav a {
+    display: inline-block;
+    vertical-align: center;
+    padding: 0px 25px;
+    margin-right: 25px;
+    line-height: 5rem;
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+nav h1{
+    text-align: right;
 }
 
 .aftellen h1{
@@ -98,6 +63,8 @@ h1 {
 
 .logo {
     position: left;
+    width: 10%;
+    height: auto;
 }
 
 .homepagina { 
@@ -112,20 +79,19 @@ h1 {
 }
 
 .container1 {
+    display: table;
+    margin-top: 10.75rem;
     display: grid;
-    height: 100vh;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas: 
-        "foto1";
-    
+    grid-template-columns: 50% 50%;
 }
 
-.foto1 {
-    grid-area: foto1;
+.item {
+    padding: 25px;
 }
 
-.fotoid1 img{
-    width: 200px;
+.foto img{
+    width: 20%;
     height: auto;
-}
+    overflow: scroll;
+
+ }
