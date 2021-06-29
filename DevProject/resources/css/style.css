@@ -9,20 +9,21 @@ body{
 }
 
 nav {
-    
     background-color: rgb(80, 78, 78);
     padding: 0;
     width: 100%;
-    padding: 0;
-    
-    
+    padding-right: 12.5rem;
+     
 }
 
 nav img{
     width: 25%;
     height: auto;
     position: absolute;
+    margin-left: 60%;
     top: 0;
+    padding-top: 2.5%;
+
 }
 
 nav a {
@@ -33,9 +34,14 @@ nav a {
     line-height: 5rem;
     color: white;
     text-decoration: none;
-    
 }
 
+.nav-bar h2 {
+    position: absolute;
+    padding-left: 52%;
+    top: -5px;
+    
+}
 
 nav h1{
     text-align: right;
