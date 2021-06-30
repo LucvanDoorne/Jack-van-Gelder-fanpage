@@ -24,9 +24,9 @@ nav img{
     width: 25%;
     height: auto;
     position: absolute;
-    margin-left: 60%;
+    margin-left: 64%;
     top: 0;
-    padding-top: 2.5%;
+    padding-top: 1.5%;
 
 }
 
@@ -38,7 +38,34 @@ nav a {
     line-height: 5rem;
     color: white;
     text-decoration: none;
-    
+}
+.pagina-1 h1{
+    min-width: 263px;
+    text-align: left;
+}
+
+.pagina-2 h1{
+    min-width: 263px;
+    text-align: left;
+}
+
+.pagina-3 h1{
+    min-width: 263px;
+    text-align: left;
+}
+
+.pagina-4 h1{
+    min-width: 263px;
+    text-align: left;
+}
+
+nav h4 {
+    display: inline-block;
+    vertical-align: center;
+    padding: 0px 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+    line-height: 3rem;
 }
 
 .nav-bar h2 {
@@ -73,47 +100,54 @@ h1 {
     font-size: 2rem;    
 }
 
-.logo {
-    position: left;
-    width: 10%;
-    height: auto;
-}
-
-.homepagina { 
-    text-align: right;
-    position: relative; 
-    width: 99%;
-    top: -10px;
-}
-
 .Contact {
     text-align: center;
 }
 
 .container1 {
-    display: table;
     margin-top: 10.75rem;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 47.5% 47.5%;
+    grid-gap: 5%;
+    align-items: center;
+    grid-auto-rows: minmax(auto, auto);
+    grid-template-areas:
+    "item1 none item2";
 }
 
-.item {
-    padding: 25px;
+.item{
+    padding: 0.5%;
+    
 }
 
-.foto img{
+.item img {
+    width: 100%;
+}
+
+#item1{
+    grid-area: "item1";
+}
+
+#item2 {
+    grid-area: "item2";
+    
+}
+
+.foto img {
     width: 20%;
     height: auto;
     overflow: scroll;
 
  }
 
-.geschiedenis{
+ .geschiedenis {
+    padding-top: 1%;
     text-align: left;
     max-width: 50%;
     padding-left: 0.5%;
+    position: absolute;
 }
-.heden{
+.heden {
     text-align: center ;
     max-width: 50%;
     padding-left: 50%;
