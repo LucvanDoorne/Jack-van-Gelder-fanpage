@@ -1,0 +1,105 @@
+*{
+  color: white;  
+  font-family: Arial, Helvetica, sans-serif;
+  }
+
+body{
+    background-color: black;
+    position: absolute;
+}
+
+nav {
+    background-color: rgb(80, 78, 78);
+    padding: 0;
+    width: 100%;
+    padding-right: 12.5rem;
+     
+}
+
+nav img{
+    width: 25%;
+    height: auto;
+    position: absolute;
+    margin-left: 60%;
+    top: 0;
+    padding-top: 2.5%;
+
+}
+
+nav a {
+    display: inline-block;
+    vertical-align: center;
+    padding: 0px 25px;
+    margin-right: 25px;
+    line-height: 5rem;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.nav-bar h2 {
+    position: absolute;
+    padding-left: 52%;
+    top: -5px;
+    
+}
+
+nav h1{
+    text-align: right;
+}
+
+.aftellen h1{
+    text-align: center;
+    padding-left: 17.5%;
+    
+}
+
+iframe{
+    text-align: center;
+    padding-left: 27.5%;
+}
+
+footer {
+    background-color: gray;
+    border: 10px solid dimgray;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2rem;    
+}
+
+.logo {
+    position: left;
+    width: 10%;
+    height: auto;
+}
+
+.homepagina { 
+    text-align: right;
+    position: relative; 
+    width: 99%;
+    top: -10px;
+}
+
+.Contact {
+    text-align: center;
+}
+
+.container1 {
+    display: table;
+    margin-top: 10.75rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.item {
+    padding: 25px;
+}
+
+.foto img{
+    width: 20%;
+    height: auto;
+    overflow: scroll;
+
+ }

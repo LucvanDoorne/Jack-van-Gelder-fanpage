@@ -2,34 +2,35 @@
 <html>
 <head>
     <title>Jack van Gelder Fanpage</title>
-    <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+    <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
-
+    
     <nav>
-        <div class="hover-content">
-        <h2>Bestemmingen</h2>
-        <ul>
-            <li><a href="index.html">Jack's thuispagina</a></li>
-            <li><a href="Informatie.html">informatie</a></li>
-            <li><a href="Videos.html">Video's</a></li>
-            <li><a href="Fotos-memes.html">Foto's/memes</a></li>
+        <div class="nav-bar">
+            <div id="Bestemmingen"><h2>Bestemmingen</h2></div>
+            <a id="pagina" href="Fotos-memes.html"><h1>Foto's/memes</h1></a>
+            <a id="logo" href="index.html"><img src="resources/jackvangelderinfo.png" alt="Logo"></a>
+            <a href="index.html">Jack's thuispagina</a>
+            <a href="Informatie.html">informatie</a>
+            <a href="Videos.html">Video's</a>
+            <a href="Fotos-memes.html">Foto's/memes</a>
             
-        </ul>
-        </div> 
-        <div class="achtergrond-menu"></div> 
+        </div>        
     </nav>
     
-    <header>
+    <div class="container">
+        <div id="item1" class="item">
+            <img id="foto1" class="foto" src="resources/foto1.png" alt="Shrek van Gelder">
+            <div id="onderschrift1" class="onderschrift"><p>Shrek van Gelder</p></div>
+        </div>
+        <div id="item2" class="item">
+            <img id="foto2" class="foto" src="resources/foto2.png" alt="Jack met bal">
+            <div id="onderschrift2" class="onderschrift"><p>Jack met bal</p></div>
+        </div>
+    </div>
     
-        <div class="logo">
-            <img src="logo">
-        </div>
-        <div class="pagina">
-            <h1>Foto's/memes</h1>
-        </div>
-    </header>
     
     <footer>
         <div class="Contact">
@@ -38,6 +39,7 @@
         
     </footer>
 
+    
 
 </body>
 </html>
