@@ -166,19 +166,22 @@ h1 {
 }
 
 .video{
-    padding: 0.5%;
+    padding: 0.5% 0.5%;
     
 }
 
 .video iframe {
     width: 100%;
+    padding-left: 0.5%;
 }
 
 #video1{
     grid-area: "item1";
+    align-items: left;
+    padding-left: 0.5%;
 }
 
 #video2 {
     grid-area: "item2";
-    
+    padding-right: 0.5%;
 }
