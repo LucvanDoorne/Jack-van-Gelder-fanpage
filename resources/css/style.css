@@ -85,8 +85,8 @@ nav h1{
     
 }
 
-iframe{
-    text-align: center;
+
+iframe {
     padding-left: 27.5%;
 }
 
@@ -105,14 +105,14 @@ h1 {
 }
 
 .container1 {
-    margin-top: 10.75rem;
+    margin-top: 0.5rem;
     display: grid;
     grid-template-columns: 47.5% 47.5%;
     grid-gap: 5%;
     align-items: center;
     grid-auto-rows: minmax(auto, auto);
     grid-template-areas:
-    "item1 none item2";
+    "item1 item2";
 }
 
 .item{
@@ -152,4 +152,33 @@ h1 {
     max-width: 50%;
     padding-left: 50%;
     padding-bottom: 300px; 
+}
+
+.container2 {
+    margin-top: 0.5rem;
+    display: grid;
+    grid-template-columns: 47.5% 47.5%;
+    grid-gap: 5%;
+    align-items: center;
+    grid-auto-rows: minmax(auto, auto);
+    grid-template-areas:
+    "item1 item2";
+}
+
+.video{
+    padding: 0.5%;
+    
+}
+
+.video iframe {
+    width: 100%;
+}
+
+#video1{
+    grid-area: "item1";
+}
+
+#video2 {
+    grid-area: "item2";
+    
 }
