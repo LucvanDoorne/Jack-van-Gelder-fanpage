@@ -1,113 +1,22 @@
 *{
-  color: white;  
-  font-family:'Ubuntu', sans-serif;
-  }
-  h1 {
-    font-family:'Ubuntu', sans-serif;
+    color: white;  
+    font-family:'Ubuntu', Arial, sans-serif;
     font-weight:normal;
     font-style:normal;
-    }
+}
+ 
+
 body{
     background-color: black;
     position: absolute;
-}
-
-nav {
-    background-color: rgb(80, 78, 78);
-    padding: 0;
     width: 100%;
-    padding-right: 12.5rem;
-     
+    margin: 0;
 }
 
-nav img{
-    width: 25%;
-    height: auto;
-    position: absolute;
-    margin-left: 64%;
-    top: 0;
-    padding-top: 1.5%;
-
-}
-
-nav a {
-    display: inline-block;
-    vertical-align: center;
-    padding: 0px 25px;
-    margin-right: 25px;
-    line-height: 5rem;
-    color: white;
-    text-decoration: none;
-}
-.pagina-1 h1{
-    min-width: 263px;
-    text-align: left;
-}
-
-.pagina-2 h1{
-    min-width: 263px;
-    text-align: left;
-}
-
-.pagina-3 h1{
-    min-width: 263px;
-    text-align: left;
-}
-
-.pagina-4 h1{
-    min-width: 263px;
-    text-align: left;
-}
-
-nav h4 {
-    display: inline-block;
-    vertical-align: center;
-    padding: 0px 25px;
-    margin-right: 25px;
-    margin-left: 25px;
-    line-height: 3rem;
-}
-
-.nav-bar h2 {
-    position: absolute;
-    padding-left: 52%;
-    top: -5px;
+.nav-bar {
     
-}
-
-nav h1{
-    text-align: right;
-}
-
-.aftellen h1{
-    text-align: center;
-    padding-left: 17.5%;
-    
-}
-
-
-iframe {
-    padding-left: 27.5%;
-}
-
-footer {
-    background-color: gray;
-    border: 10px solid dimgray;
-    width: 100%;
-}
-
-h1 {
-    font-size: 2rem;    
-}
-
-.Contact {
-    text-align: center;
-}
-
-.container1 {
-    margin-top: 0.5rem;
     display: grid;
-    grid-template-columns: 47.5% 47.5%;
+    grid-template-columns: 40% 35%;
     grid-gap: 5%;
     align-items: center;
     grid-auto-rows: minmax(auto, auto);
@@ -115,38 +24,110 @@ h1 {
     "item1 item2";
 }
 
-.item{
-    padding: 0.5%;
+nav {
+    background-color: rgb(22, 22, 22);
+    min-width: 100%; 
     
+}
+
+.logo img{
+    width: 45rem;
+    height: auto;
+    position: absolute;
+    align-items: center;
+    top: 0.5rem;
+    right: 0%;
+}
+
+nav a {
+    display: inline-block;
+    margin: 0.5rem 1rem 0.5rem 1rem;
+    line-height: 2rem;
+    text-decoration: none;
+    align-items: center;
+    
+}
+    
+nav h2 {
+    padding-left: 1rem;
+    margin-top: 0rem;
+    margin-bottom: 0.5rem;
+    padding-top: 0.75rem;
+    
+}
+
+.aftellen h1{
+    text-align: center;
+}
+
+
+.OGvideo {
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(22, 22, 22);
+    width: 100%;
+    margin-top: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+
+h1 {
+    font-size: 3rem; 
+    text-align: center;   
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+}
+
+.Contact {
+    text-align: center;
+    
+}
+
+.container1 {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 2.5%;
+    align-items: center;
+    padding-left: 2.5%;
+    
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: 32.5% 62.5%;
+    grid-gap: 2.5%;
+    align-items: center;
+}
+
+.container3 {
+    display: grid;
+    grid-template-columns: 47.5% 47.5%;
+    grid-gap: 2.5%;
+    align-items: center;
+}
+
+.container4 {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 2.5%;
+    align-items: center;
 }
 
 .item img {
     width: 100%;
 }
 
-#item1{
-    grid-area: "item1";
-}
-
-#item2 {
-    grid-area: "item2";
-    
-}
-
-.foto img {
-    width: 20%;
-    height: auto;
-    overflow: scroll;
-
- }
-
- .geschiedenis {
+.geschiedenis {
     padding-top: 1%;
     text-align: left;
     max-width: 50%;
     padding-left: 0.5%;
     position: absolute;
 }
+
 .heden {
     text-align: center ;
     max-width: 50%;
@@ -154,15 +135,18 @@ h1 {
     padding-bottom: 300px; 
 }
 
-.container2 {
+.container5 {
     margin-top: 0.5rem;
     display: grid;
     grid-template-columns: 47.5% 47.5%;
     grid-gap: 5%;
     align-items: center;
-    grid-auto-rows: minmax(auto, auto);
-    grid-template-areas:
-    "item1 item2";
+    padding-bottom: 20rem;
+}
+
+.onderschrift h4{
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 .video{
@@ -171,17 +155,7 @@ h1 {
 }
 
 .video iframe {
+    padding-left: 0.5%;
     width: 100%;
-    padding-left: 0.5%;
 }
 
-#video1{
-    grid-area: "item1";
-    align-items: left;
-    padding-left: 0.5%;
-}
-
-#video2 {
-    grid-area: "item2";
-    padding-right: 0.5%;
-}
