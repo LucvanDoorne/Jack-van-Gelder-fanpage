@@ -96,7 +96,7 @@ h1 {
     text-align: center;
 }
 
-@media only screen and (max-width: 900px) and (min-height: 800px ) {
+@media only screen and (min-width: 561px) and (max-width: 900px) and (min-height: 800px ) {
     nav a {
         line-height: 1.7rem;
         margin: 0.27rem 0.27rem;
@@ -150,6 +150,42 @@ h1 {
 
     .aftellen h1 {
         font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    nav a {
+        line-height: 1.1rem;
+        margin: 0.18rem 0.18rem;
+        padding: 0% 0.44rem;
+        font-size: 0.44rem;
+    }
+
+    nav h2 {
+        padding-left: 0.62rem;
+        margin-bottom: 0.27rem;
+        padding-top: 0.22rem;
+        font-size: 0.66rem;
+    }
+
+    .logo img {
+        padding: 1rem 0.22%;
+        width: 8.87rem;
+        height: auto;
+    }
+
+    nav {
+        padding-bottom: 0.87rem;
+        height: 2.8rem;
+    }
+    
+    footer {
+        margin-top: 1.11rem;
+        padding: 0.44rem 0rem;
+    }
+
+    p {
+        font-size: 0.44rem;
     }
 }
 
