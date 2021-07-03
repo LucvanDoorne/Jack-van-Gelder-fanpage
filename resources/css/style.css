@@ -27,7 +27,7 @@ body{
 nav {
     background-color: rgb(22, 22, 22);
     min-width: 100%; 
-    
+    padding-bottom: 0.35%    
 }
 
 .logo img{
@@ -35,29 +35,46 @@ nav {
     height: auto;
     position: absolute;
     align-items: center;
-    top: 0.5rem;
+    top: 0%;
     right: 0%;
+    padding: 1% 1%;
 }
+
+.logo img:hover{
+    transition-delay: 100ms;
+    background-color: rgb(80, 80, 80);
+    transition-duration: 500ms;
+}
+
 
 nav a {
     display: inline-block;
-    margin: 0.5rem 1rem 0.5rem 1rem;
-    line-height: 2rem;
+    line-height: 2.5rem;
+    margin: 0.75% 0.75%;
+    padding: 0% 2.5%;
     text-decoration: none;
     align-items: center;
+}
+
+nav a:hover {
+    transition-delay: 200ms;
+    background-color: rgb(80, 80, 80);
+    transition-duration: 500ms;
     
 }
     
 nav h2 {
-    padding-left: 1rem;
+    padding-left: 1.4%;
     margin-top: 0rem;
-    margin-bottom: 0.5rem;
-    padding-top: 0.75rem;
+    margin-bottom: 0.5%;
+    padding-top: 0.75%;
     
 }
 
 .aftellen h1{
     text-align: center;
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
 }
 
 
@@ -68,7 +85,7 @@ nav h2 {
 footer {
     background-color: rgb(22, 22, 22);
     width: 100%;
-    margin-top: 5rem;
+    margin-top: 2.5rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
     
