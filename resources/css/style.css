@@ -290,22 +290,102 @@ footer {
     p {
         font-size: 0.44rem;
     }
+}
 
-    .container1{
+
+footer {
+    background-color: rgb(22, 22, 22);
+    width: 100%;
+    margin-top: 2.5rem;
+    padding: 1rem 0rem;
+}
+
+
+.Contact {
+    text-align: center;
+    
+}
+
+.container1 {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 2.5%;
+    align-items: center;
+    padding-left: 2.5%;
+    
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: 32.5% 62.5%;
+    grid-gap: 2.5%;
+    align-items: center;
+    padding-left: 2.5%;
+}
+
+.container3 {
+    display: grid;
+    grid-template-columns: 46.5% 46.5%;
+    grid-gap: 2.5%;
+    align-items: center;
+    padding-left: 2.5%;
+}
+
+.container4 {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 2.5%;
+    align-items: center;
+    padding-left: 2.5%;
+}
+
+.item img {
+    width: 100%;
+}
+
+.container6 {
+    display: grid;
+    grid-template-columns: 47.5% 47.5%;
+    grid-gap: 2.5%;
+    align-items: center;
+    padding-left: 2%;
+}
+.mania img{
+    width: 100%;
+    padding: 1.5%;
+}
+.video-bergkamp iframe{
+    padding-bottom: 10rem;
+    width: 100%;
+    padding-right: 1.5%;
+    padding-left: 1.5%;
+}
+.Dennis-Bergkamp{
+    padding-bottom: 10rem;
+    width: 100%;
+}
+.plaatje img {
+    width: 100%;
+    padding-top: 7rem;
+    padding-right: 1.5%;
+    padding-left: 1.5%;
+}
+
+.container1{
         grid-template-columns: 100%;
         padding-bottom: 105rem;
         grid-gap: 0%;
-    }
+}
 
-    .item {
+.item {
         padding: 1%;
-    }
+}
 
-    #item1 {
+#item1 {
         width: 98%;
     }
     
-    #item9 {
+#item9 {
         width: 98%
-    }
 }
+
