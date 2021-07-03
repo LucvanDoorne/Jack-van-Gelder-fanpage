@@ -125,13 +125,6 @@ footer {
     width: 100%;
 }
 
-.container6 {
-    display: grid;
-    grid-template-columns: 47.5% 47.5%;
-    grid-gap: 2.5%;
-    align-items: center;
-    padding-left: 2%;
-}
 
 .plaatje img {
     width: 100%;
@@ -157,17 +150,73 @@ footer {
     text-align: center;
 }
 
+footer {
+    background-color: rgb(22, 22, 22);
+    width: 100%;
+    margin-top: 2.5rem;
+    padding: 1rem 0rem;
+}
+
+
+.Contact {
+    text-align: center;
+    
+}
+
+.item img {
+    width: 100%;
+}
+
+.container3 {
+    display: grid;
+    grid-template-columns: 47.5% 47.5%;
+    grid-gap: 2.5%;
+    align-items: center;
+    padding-left: 2%;
+    text-align: center;
+}
+
+.container3 h2{
+    font-size: 1.5rem;
+}
+.container3 h3{
+    font-size: 1rem;
+}
+.mania img{
+    width: 100%;
+    padding: 1.5%;
+}
+.video-bergkamp iframe{
+    padding-bottom: 10rem;
+    width: 100%;
+    padding-right: 1.5%;
+    padding-left: 1.5%;
+    width: 639px;
+    height: 360px;
+}
+.Dennis-Bergkamp{
+    padding-bottom: 10rem;
+    width: 100%;
+}
+.plaatje img {
+    width: 100%;
+    padding-top: 7rem;
+    padding-right: 1.5%;
+    padding-left: 1.5%;
+}
+
 @media only screen and (max-width: 1800px) {
     .container2{
         grid-template-columns: 100%;
         grid-gap: 0%;
+        padding-bottom: 0%;
     }
     .video {
         padding: 1%;
     }
 }
 
-@media only screen and (max-width: 1325px) {
+@media only screen and (max-width: 1360px) {
     .logo img {
         width: 20rem;
         height: auto;
@@ -178,9 +227,13 @@ footer {
         grid-template-columns: 46.5% 46.5%;
         padding-bottom: 17.5rem;
     }
+    .video-bergkamp iframe {
+        width: 426px;
+        height: 240px;
+    }
 }
 
-@media only screen and (min-width: 575px) and (max-width: 900px) and (orientation: landscape) {
+@media only screen and (max-width: 900px) {
     nav a {
         line-height: 1.7rem;
         margin: 0.27rem 0.27rem;
@@ -227,7 +280,7 @@ footer {
 
     .container1{
         grid-template-columns: 100%;
-        padding-bottom: 105rem;
+        padding-bottom: 0rem;
         grid-gap: 0%;
     }
 
@@ -242,10 +295,43 @@ footer {
     #item9 {
         width: 98%
     }
-    
+
+    .container3 {
+        grid-template-columns: 100%;
+        grid-gap: 1%;
+        text-align: center;
+        padding: 1%;
+    }
+
+    .container3 img{
+        padding-right: 5%;
+        width: 97%;
+    }
+
+    .plaatje img{
+        padding-top: 0;
+    }
+
+    .mania {
+        grid-row: 4;
+    }
+
+    .Dennis-Bergkamp {
+        padding-bottom: 0;
+        
+    }
+    .video-bergkamp iframe {
+        width: 639px;
+        height: 360px;
+    }
 }
 
 @media only screen and (max-width: 700px)  {
+    .video-bergkamp iframe {
+        width: 426px;
+        height: 240px;
+    }
+
     iframe {
         width: 426px;
         height: 240px;
@@ -254,9 +340,18 @@ footer {
     .aftellen h1 {
         font-size: 1.5rem;
     }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .onderschrift h4 {
+        font-size: 0.75rem;
+    }
+
 }
 
-@media only screen and (max-width: 575px) and (orientation: portrait) {
+@media only screen and (max-width: 575px) {
     nav a {
         line-height: 1.1rem;
         margin: 0.18rem 0.18rem;
@@ -290,102 +385,13 @@ footer {
     p {
         font-size: 0.44rem;
     }
-}
 
-
-footer {
-    background-color: rgb(22, 22, 22);
-    width: 100%;
-    margin-top: 2.5rem;
-    padding: 1rem 0rem;
-}
-
-
-.Contact {
-    text-align: center;
-    
-}
-
-.container1 {
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    grid-gap: 2.5%;
-    align-items: center;
-    padding-left: 2.5%;
-    
-}
-
-.container2 {
-    display: grid;
-    grid-template-columns: 32.5% 62.5%;
-    grid-gap: 2.5%;
-    align-items: center;
-    padding-left: 2.5%;
-}
-
-.container3 {
-    display: grid;
-    grid-template-columns: 46.5% 46.5%;
-    grid-gap: 2.5%;
-    align-items: center;
-    padding-left: 2.5%;
-}
-
-.container4 {
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    grid-gap: 2.5%;
-    align-items: center;
-    padding-left: 2.5%;
-}
-
-.item img {
-    width: 100%;
-}
-
-.container6 {
-    display: grid;
-    grid-template-columns: 47.5% 47.5%;
-    grid-gap: 2.5%;
-    align-items: center;
-    padding-left: 2%;
-}
-.mania img{
-    width: 100%;
-    padding: 1.5%;
-}
-.video-bergkamp iframe{
-    padding-bottom: 10rem;
-    width: 100%;
-    padding-right: 1.5%;
-    padding-left: 1.5%;
-}
-.Dennis-Bergkamp{
-    padding-bottom: 10rem;
-    width: 100%;
-}
-.plaatje img {
-    width: 100%;
-    padding-top: 7rem;
-    padding-right: 1.5%;
-    padding-left: 1.5%;
-}
-
-.container1{
-        grid-template-columns: 100%;
-        padding-bottom: 105rem;
-        grid-gap: 0%;
-}
-
-.item {
-        padding: 1%;
-}
-
-#item1 {
-        width: 98%;
+    .container3 h2{
+        font-size: 1rem;
     }
     
-#item9 {
-        width: 98%
+    .container3 h3{
+        font-size: 0.67rem;
+    }
 }
 
