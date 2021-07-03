@@ -247,10 +247,25 @@ footer {
     align-items: center;
     padding-left: 2%;
 }
-
-.plaatje img {
+.mania img{
     width: 100%;
     padding: 1.5%;
+}
+.video-bergkamp iframe{
+    padding-bottom: 10rem;
+    width: 100%;
+    padding-right: 1.5%;
+    padding-left: 1.5%;
+}
+.Dennis-Bergkamp{
+    padding-bottom: 10rem;
+    width: 100%;
+}
+.plaatje img {
+    width: 100%;
+    padding-top: 7rem;
+    padding-right: 1.5%;
+    padding-left: 1.5%;
 }
 
 .container5 {
