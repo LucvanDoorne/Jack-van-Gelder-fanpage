@@ -40,15 +40,6 @@ nav {
     padding: 1rem 1%;
 }
 
-@media only screen and (max-width: 1325px) {
-    .logo img {
-        width: 20rem;
-        height: auto;
-        padding: 2.2rem 0.5%;
-    }
-}
-
-
 .logo img:hover{
     transition-delay: 100ms;
     background-color: rgb(80, 80, 80);
@@ -96,7 +87,100 @@ h1 {
     text-align: center;
 }
 
-@media only screen and (min-width: 561px) and (max-width: 900px) and (min-height: 800px ) {
+
+
+
+footer {
+    background-color: rgb(22, 22, 22);
+    width: 100%;
+    margin-top: 2.5rem;
+    padding: 1rem 0rem;
+}
+
+
+.Contact {
+    text-align: center;
+    
+}
+
+.container1 {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 2.5%;
+    align-items: center;
+    padding-left: 2.5%;
+    margin-bottom: 17.5rem;
+    
+}
+
+#item1 {
+    width: 200%;
+}
+
+#item9 {
+    width: 200%
+}
+
+.item img {
+    width: 100%;
+}
+
+.container6 {
+    display: grid;
+    grid-template-columns: 47.5% 47.5%;
+    grid-gap: 2.5%;
+    align-items: center;
+    padding-left: 2%;
+}
+
+.plaatje img {
+    width: 100%;
+    padding: 1.5%;
+}
+
+.container2 {
+    margin-top: 0.5rem;
+    display: grid;
+    grid-template-columns: 47.5% 47.5%;
+    grid-gap: 3%;
+    align-items: center;
+    padding-bottom: 20rem;
+}
+
+.onderschrift h4{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.video{
+    padding: 1% 1%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1800px) {
+    .container2{
+        grid-template-columns: 100%;
+        grid-gap: 0%;
+    }
+    .video {
+        padding: 1%;
+    }
+}
+
+@media only screen and (max-width: 1325px) {
+    .logo img {
+        width: 20rem;
+        height: auto;
+        padding: 2.2rem 0.5%;
+    }
+
+    .container1{
+        grid-template-columns: 46.5% 46.5%;
+        padding-bottom: 17.5rem;
+    }
+}
+
+@media only screen and (min-width: 575px) and (max-width: 900px) and (orientation: landscape) {
     nav a {
         line-height: 1.7rem;
         margin: 0.27rem 0.27rem;
@@ -122,7 +206,7 @@ h1 {
         height: 4.2rem;
     }
     
-    .OGvideo iframe {
+    iframe {
         width: 640px;
         height: 360px;
     }
@@ -140,10 +224,29 @@ h1 {
     p {
         font-size: 0.67rem;
     }
+
+    .container1{
+        grid-template-columns: 100%;
+        padding-bottom: 105rem;
+        grid-gap: 0%;
+    }
+
+    .item {
+        padding: 1%;
+    }
+
+    #item1 {
+        width: 98%;
+    }
+    
+    #item9 {
+        width: 98%
+    }
+    
 }
 
-@media only screen and (max-width: 700px) {
-    .OGvideo iframe {
+@media only screen and (max-width: 700px)  {
+    iframe {
         width: 426px;
         height: 240px;
     }
@@ -153,7 +256,7 @@ h1 {
     }
 }
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 575px) and (orientation: portrait) {
     nav a {
         line-height: 1.1rem;
         margin: 0.18rem 0.18rem;
@@ -187,94 +290,22 @@ h1 {
     p {
         font-size: 0.44rem;
     }
-}
 
+    .container1{
+        grid-template-columns: 100%;
+        padding-bottom: 105rem;
+        grid-gap: 0%;
+    }
 
-footer {
-    background-color: rgb(22, 22, 22);
-    width: 100%;
-    margin-top: 2.5rem;
-    padding: 1rem 0rem;
-}
+    .item {
+        padding: 1%;
+    }
 
-
-.Contact {
-    text-align: center;
+    #item1 {
+        width: 98%;
+    }
     
+    #item9 {
+        width: 98%
+    }
 }
-
-.container1 {
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    grid-gap: 2.5%;
-    align-items: center;
-    padding-left: 2.5%;
-    
-}
-
-.container2 {
-    display: grid;
-    grid-template-columns: 32.5% 62.5%;
-    grid-gap: 2.5%;
-    align-items: center;
-    padding-left: 2.5%;
-}
-
-.container3 {
-    display: grid;
-    grid-template-columns: 46.5% 46.5%;
-    grid-gap: 2.5%;
-    align-items: center;
-    padding-left: 2.5%;
-}
-
-.container4 {
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    grid-gap: 2.5%;
-    align-items: center;
-    padding-left: 2.5%;
-}
-
-.item img {
-    width: 100%;
-}
-
-.container6 {
-    display: grid;
-    grid-template-columns: 47.5% 47.5%;
-    grid-gap: 2.5%;
-    align-items: center;
-    padding-left: 2%;
-}
-
-.plaatje img {
-    width: 100%;
-    padding: 1.5%;
-}
-
-.container5 {
-    margin-top: 0.5rem;
-    display: grid;
-    grid-template-columns: 47.5% 47.5%;
-    grid-gap: 3%;
-    align-items: center;
-    padding-bottom: 20rem;
-}
-
-.onderschrift h4{
-    text-align: center;
-    font-size: 1.5rem;
-}
-
-.video{
-    padding: 1% 1%;
-    
-}
-
-.video iframe {
-    padding-left: 0.5%;
-    width: 100%;
-}
-
-
