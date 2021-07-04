@@ -304,7 +304,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 900px) and (-webkit-max-device-pixel-ratio: 1) {
+@media only screen and (max-width: 910px) and (-webkit-max-device-pixel-ratio: 1) {
     nav a {
         line-height: 1.7rem;
         margin: 0.27rem 0.27rem;
@@ -375,7 +375,6 @@ footer {
     }
 
     .container3 img{
-        padding-right: 5%;
         width: 97%;
     }
 
