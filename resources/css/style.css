@@ -189,7 +189,7 @@ footer {
     padding: 2.5% 1.5% 1% 1.5%;
 }
 
-@media only screen and (orientation: portrait) {
+@media only screen and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .container1 {
         grid-template-columns: 100%;
         padding-bottom: 0rem;
@@ -263,7 +263,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 1800px) {
+@media only screen and (max-width: 1800px) and (-webkit-max-device-pixel-ratio: 1) {
     .container2{
         grid-template-columns: 100%;
         grid-gap: 0%;
@@ -274,7 +274,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 1360px) {
+@media only screen and (max-width: 1360px) and (-webkit-max-device-pixel-ratio: 1) {
     .logo img {
         width: 20rem;
         height: auto;
@@ -291,7 +291,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 900px) and (-webkit-max-device-pixel-ratio: 1) {
     nav a {
         line-height: 1.7rem;
         margin: 0.27rem 0.27rem;
@@ -384,7 +384,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 700px)  {
+@media only screen and (max-width: 700px) and (-webkit-max-device-pixel-ratio: 1) {
     .video-bergkamp iframe {
         width: 426px;
         height: 240px;
@@ -409,7 +409,7 @@ footer {
 
 }
 
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 575px) and (-webkit-max-device-pixel-ratio: 1) {
     nav a {
         line-height: 1.1rem;
         margin: 0.18rem 0.18rem;
