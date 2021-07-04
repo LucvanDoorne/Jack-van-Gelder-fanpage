@@ -10,6 +10,7 @@ body{
     background-color: black;
     position: absolute;
     width: 100%;
+    min-height: 100%;
     margin: 0;
 }
 
@@ -28,6 +29,7 @@ nav {
     min-width: 100%; 
     padding-bottom: 0.2rem;    
     height: 6.25rem;
+    position: fixed;
 }
 
 .logo img{
@@ -72,7 +74,7 @@ nav h2 {
 h1 {
     font-size: 3rem; 
     text-align: center;   
-    margin-top: 1rem;
+    margin-top: 8rem;
     margin-bottom: 0rem;
 }
 
@@ -87,16 +89,18 @@ h1 {
     text-align: center;
 }
 
-
-
+.footer-index footer {
+    position: fixed;
+}
 
 footer {
     background-color: rgb(22, 22, 22);
     width: 100%;
     margin-top: 2.5rem;
     padding: 1rem 0rem;
+    position: relative;
+    bottom: 0%;
 }
-
 
 .Contact {
     text-align: center;
@@ -125,12 +129,6 @@ footer {
     width: 100%;
 }
 
-
-.plaatje img {
-    width: 100%;
-    padding: 1.5%;
-}
-
 .container2 {
     margin-top: 0.5rem;
     display: grid;
@@ -150,19 +148,6 @@ footer {
     text-align: center;
 }
 
-footer {
-    background-color: rgb(22, 22, 22);
-    width: 100%;
-    margin-top: 2.5rem;
-    padding: 1rem 0rem;
-}
-
-
-.Contact {
-    text-align: center;
-    
-}
-
 .item img {
     width: 100%;
 }
@@ -179,13 +164,16 @@ footer {
 .container3 h2{
     font-size: 1.5rem;
 }
+
 .container3 h3{
     font-size: 1rem;
 }
+
 .mania img{
     width: 100%;
     padding: 1.5%;
 }
+
 .video-bergkamp iframe{
     padding-bottom: 10rem;
     width: 100%;
@@ -194,15 +182,89 @@ footer {
     width: 639px;
     height: 360px;
 }
+
 .Dennis-Bergkamp{
     padding-bottom: 10rem;
     width: 100%;
 }
+
 .plaatje img {
     width: 100%;
-    padding-top: 7rem;
-    padding-right: 1.5%;
-    padding-left: 1.5%;
+    padding: 2.5% 1.5% 1% 1.5%;
+}
+
+@media only screen and (orientation: portrait) {
+    .container1 {
+        grid-template-columns: 100%;
+        padding-bottom: 0rem;
+        grid-gap: 0%;
+    }
+
+    .item {
+        padding: 1%;
+    }
+
+    #item1 {
+        width: 98%;
+    }
+    
+    #item9 {
+        width: 98%
+    }
+
+    .container3 {
+        grid-template-columns: 100%;
+        grid-gap: 1%;
+        text-align: center;
+        padding: 1%;
+    }
+
+    .container3 img{
+        padding-right: 5%;
+        width: 97%;
+    }
+
+    .plaatje img{
+        padding-top: 0;
+    }
+
+    .mania {
+        grid-row: 4;
+    }
+
+    .Dennis-Bergkamp {
+        padding-bottom: 0;
+        
+    }
+
+    .video-bergkamp iframe {
+        width: 639px;
+        height: 360px;
+    }
+
+    nav {
+        padding-bottom: 0.2rem;    
+        height: 6.25rem;
+    }
+
+    nav a {
+        line-height: 2.5rem;
+        margin: 0.4rem 0.4rem;
+        padding: 0% 1rem;
+    }
+
+    nav h2 {
+        padding-left: 1.4rem;
+        margin-top: 0rem;
+        margin-bottom: 0.6rem;
+        padding-top: 0.5rem;
+    }
+    
+    .logo img {
+        width: 20rem;
+        height: auto;
+        padding: 2.2rem 0.5%;
+    }
 }
 
 @media only screen and (max-width: 1800px) {
@@ -374,8 +436,7 @@ footer {
 
     nav {
         padding-bottom: 0.87rem;
-        height: 2.8rem;
-    }
+        height: 2rem;    }
     
     footer {
         margin-top: 1.11rem;
