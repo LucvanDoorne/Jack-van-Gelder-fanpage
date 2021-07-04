@@ -208,6 +208,12 @@ footer {
         width: 98%
     }
 
+    .container2 {
+        grid-template-columns: 100%;
+        grid-gap: 1%;
+        padding: 1%;
+    }
+
     .container3 {
         grid-template-columns: 100%;
         grid-gap: 1%;
@@ -233,7 +239,7 @@ footer {
         
     }
 
-    .video-bergkamp iframe {
+    iframe {
         width: 639px;
         height: 360px;
     }
@@ -247,6 +253,7 @@ footer {
         line-height: 3.75rem;
         margin: 0.6rem 0.6rem;
         padding: 0% 1.5rem;
+        font-size: 1rem;
     }
 
     nav h2 {
@@ -254,12 +261,118 @@ footer {
         margin-top: 0rem;
         margin-bottom: 0.9rem;
         padding-top: 0.75rem;
+        font-size: 1.5rem;
     }
     
     .logo img {
         width: 20rem;
         height: auto;
-        padding: 8.3rem 0.5%;
+        padding: 3.8rem 0.5%;
+    }
+
+    h1{
+        margin-top: 12rem;
+    }
+}
+
+@media only screen and (orientation: landscape) and (-webkit-max-device-pixel-ratio: 2) {
+    nav a {
+        line-height: 1.7rem;
+        margin: 0.27rem 0.27rem;
+        padding: 0% 0.66rem;
+        font-size: 0.66rem;
+    }
+
+    nav h2 {
+        padding-left: 0.93rem;
+        margin-bottom: 0.4rem;
+        padding-top: 0.33rem;
+        font-size: 1rem;
+    }
+
+    .logo img {
+        padding: 1.5rem 0.33%;
+        width: 13.3rem;
+        height: auto;
+    }
+
+    nav {
+        padding-bottom: 0.13rem;
+        height: 4.2rem;
+    }
+    
+    iframe {
+        width: 640px;
+        height: 360px;
+    }
+
+    .aftellen h1 {
+        font-size: 2rem;
+        padding-bottom: 0.66rem;
+    }
+
+    footer {
+        margin-top: 5rem;
+        padding: 0.67rem 0rem;
+    }
+
+    p {
+        font-size: 0.67rem;
+    }
+
+    .container1{
+        grid-template-columns: 47.5% 47.5%;
+        padding-bottom: 0rem;
+        grid-gap: 2%;
+    }
+    
+
+    .item {
+        padding: 1%;
+    }
+
+    #item1 {
+        width: 198%;
+    }
+    
+    #item9 {
+        width: 198%;
+        padding-bottom: 7rem;
+    }
+
+    .container2 {
+        grid-template-columns: 100%;
+        grid-gap: 1%;
+        padding: 1%;
+    }
+
+    .container3 {
+        grid-template-columns: 100%;
+        grid-gap: 1%;
+        text-align: center;
+        padding: 1%;
+    }
+
+    .container3 img{
+        padding-right: 5%;
+        width: 97%;
+    }
+
+    .plaatje img{
+        padding-top: 0;
+    }
+
+    .mania {
+        grid-row: 4;
+    }
+
+    .Dennis-Bergkamp {
+        padding-bottom: 0;
+        
+    }
+    .video-bergkamp iframe {
+        width: 639px;
+        height: 360px;
     }
 }
 
