@@ -148,10 +148,6 @@ footer {
     text-align: center;
 }
 
-.item img {
-    width: 100%;
-}
-
 .container3 {
     display: grid;
     grid-template-columns: 47.5% 47.5%;
