@@ -240,26 +240,26 @@ footer {
 
     nav {
         padding-bottom: 0.2rem;    
-        height: 6.25rem;
+        height: 9.375rem;
     }
 
     nav a {
-        line-height: 2.5rem;
-        margin: 0.4rem 0.4rem;
-        padding: 0% 1rem;
+        line-height: 3.75rem;
+        margin: 0.6rem 0.6rem;
+        padding: 0% 1.5rem;
     }
 
     nav h2 {
-        padding-left: 1.4rem;
+        padding-left: 2.1rem;
         margin-top: 0rem;
-        margin-bottom: 0.6rem;
-        padding-top: 0.5rem;
+        margin-bottom: 0.9rem;
+        padding-top: 0.75rem;
     }
     
     .logo img {
         width: 20rem;
         height: auto;
-        padding: 2.2rem 0.5%;
+        padding: 8.3rem 0.5%;
     }
 }
 
