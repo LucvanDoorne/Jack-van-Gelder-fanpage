@@ -97,7 +97,7 @@ h1 {
 footer {
     background-color: rgb(22, 22, 22);
     width: 100%;
-    margin-top: 2.5rem;
+    margin-top: 5rem;
     padding: 1rem 0rem;
     position: relative;
     bottom: 0%;
@@ -196,7 +196,6 @@ footer {
 
 .Ziggo-sport {
     padding: 1%;
-    margin-bottom: 10rem;
 }
 
 @media only screen and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
