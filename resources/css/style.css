@@ -563,4 +563,8 @@ footer {
         width: 639px;
         height: 360px;
     }
+
+    .OGvideo iframe {
+        padding-bottom: 6rem;
+    }
 }
