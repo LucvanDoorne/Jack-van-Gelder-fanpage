@@ -90,7 +90,8 @@ h1 {
 }
 
 .footer-index footer {
-    position: fixed;
+    position: relative;
+    margin-top: 5rem;
 }
 
 footer {
@@ -199,6 +200,10 @@ footer {
 }
 
 @media only screen and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .footer-index footer {
+        position: fixed;
+    }
+
     .container1 {
         grid-template-columns: 100%;
         padding-bottom: 0rem;
@@ -315,6 +320,11 @@ footer {
         padding: 2.2rem 0.5%;
     }
 
+    .OGvideo iframe {
+        width: 854px;
+        height: 480px;
+    }
+
     .container1{
         grid-template-columns: 46.5% 46.5%;
         padding-bottom: 17.5rem;
@@ -350,6 +360,11 @@ footer {
         padding-bottom: 0.13rem;
         height: 4.2rem;
     }
+
+    .OGvideo iframe {
+        width: 640px;
+        height: 360px;
+    }
     
     iframe {
         width: 640px;
@@ -359,6 +374,10 @@ footer {
     .aftellen h1 {
         font-size: 2rem;
         padding-bottom: 0.66rem;
+    }
+
+    .footer-index footer {
+        position: fixed;
     }
 
     footer {
@@ -429,6 +448,11 @@ footer {
 
 @media only screen and (max-width: 700px) and (-webkit-max-device-pixel-ratio: 1) {
     .video-bergkamp iframe {
+        width: 426px;
+        height: 240px;
+    }
+
+    .OGvideo iframe {
         width: 426px;
         height: 240px;
     }
@@ -532,7 +556,7 @@ footer {
     }
 
     footer {
-        margin-top: 5rem;
+        margin-top: 3rem;
         padding: 0.67rem 0rem;
     }
 
