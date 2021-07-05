@@ -212,6 +212,7 @@ footer {
         grid-template-columns: 100%;
         grid-gap: 1%;
         padding: 1%;
+        padding-bottom: 5rem;
     }
 
     .container3 {
@@ -273,6 +274,7 @@ footer {
     h1{
         margin-top: 12rem;
     }
+        
 }
 
 
