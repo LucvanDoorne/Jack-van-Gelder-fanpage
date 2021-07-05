@@ -171,7 +171,6 @@ footer {
 }
 
 .video-bergkamp iframe{
-    padding-bottom: 10rem;
     width: 100%;
     padding-right: 1.5%;
     padding-left: 1.5%;
@@ -180,13 +179,23 @@ footer {
 }
 
 .Dennis-Bergkamp{
-    padding-bottom: 10rem;
     width: 100%;
 }
 
 .plaatje img {
     width: 100%;
     padding: 2.5% 1.5% 1% 1.5%;
+}
+
+.jack-ziggo img {
+    width: 100%;
+    padding: 2.5% 1.5% 1% 1.5%;
+    margin-bottom: 10rem;
+}
+
+.Ziggo-sport {
+    padding: 1%;
+    margin-bottom: 10rem;
 }
 
 @media only screen and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
@@ -235,9 +244,19 @@ footer {
         grid-row: 4;
     }
 
+    .jack-ziggo {
+        grid-row: 8;
+        margin-bottom: 15rem;
+    }
+
+    .Ziggo-sport {
+        grid-row: 7;
+        margin-bottom: 0rem;
+    }
+
     .Dennis-Bergkamp {
         padding-bottom: 0;
-        
+
     }
 
     iframe {
@@ -386,6 +405,16 @@ footer {
 
     .mania {
         grid-row: 4;
+    }
+
+    .jack-ziggo {
+        grid-row: 8;
+        margin-bottom: 4rem;
+    }
+
+    .Ziggo-sport {
+        grid-row: 7;
+        margin-bottom: 0rem;
     }
 
     .Dennis-Bergkamp {
@@ -555,6 +584,16 @@ footer {
 
     .mania {
         grid-row: 4;
+    }
+
+    .jack-ziggo {
+        grid-row: 8;
+        margin-bottom: 5rem;
+    }
+
+    .Ziggo-sport {
+        grid-row: 7;
+        margin-bottom: 0rem;
     }
 
     .Dennis-Bergkamp {
